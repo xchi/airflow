@@ -15,7 +15,7 @@
 # specific language governing permissions and limitations
 # under the License.
 # shellcheck disable=SC1091
-FROM debian:buster-slim
+FROM debian:10.12-slim
 
 ARG BATS_VERSION
 ARG BATS_SUPPORT_VERSION
